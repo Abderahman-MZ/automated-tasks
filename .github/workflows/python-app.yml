@@ -26,4 +26,4 @@ jobs:
 
       - name: Run script
         run: |
-          python open_chrome_tabs.py
+          python scripts/open_chrome_tabs.py
