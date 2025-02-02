@@ -1,4 +1,18 @@
+"""
+open_chrome_tabs.py
+-------------------
+
+This script automates the process of opening multiple URLs in Google Chrome using a specified user profile.
+
+Usage:
+    python open_chrome_tabs.py
+
+Dependencies:
+    - subprocess (standard library)
+    - os (standard library)
+"""
 import subprocess
+
 
 # Path to the Chrome executable
 chrome_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
